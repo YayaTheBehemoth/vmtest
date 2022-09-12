@@ -19,6 +19,7 @@ namespace IbasAPI.Controllers
         public DailyProductionController(ILogger<DailyProductionController> logger)
         {
             _logger = logger;
+            /*
             _productionRepo = new List<DailyProductionDTO>
             {
                 new DailyProductionDTO {Date = new DateTime(2020, 1, 31), Model = BikeModel.IBv1, ItemsProduced = 12},
@@ -60,6 +61,7 @@ namespace IbasAPI.Controllers
                 new DailyProductionDTO {Date = new DateTime(2020, 11, 30), Model = BikeModel.evIB200, ItemsProduced = 61},
                 new DailyProductionDTO {Date = new DateTime(2020, 12, 31), Model = BikeModel.evIB200, ItemsProduced = 88}
             };
+            */
         }
         
         [HttpGet]
